@@ -1,0 +1,35 @@
+/* Main Layout */
+body {
+    margin: 0;
+    background-color: #000;
+    color: #fff;
+    font-family: -apple-system, sans-serif;
+    overflow-x: hidden;
+}
+
+/* Hero Zoom Section */
+.hero-scroll {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.zoom-container {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+#zoom-img {
+    width: 60%;
+    transition: transform 0.1s ease-out;
+}
+
+.hero-text {
+    position: absolute;
+    text-align: center;
+    z-index: 10;
+}
