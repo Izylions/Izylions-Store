@@ -6,16 +6,18 @@
     <title>IZYLIONS — Premium Athletic Wear</title>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
     
-    <!-- Link to your CSS branch[cite: 2] -->
-    <link rel="stylesheet" href="css/style.css">
+    <!-- This calls your CSS folder[cite: 2] -->
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 
 <?php include 'php/navbar.php'; ?>
 
-<!-- Paste your Hero, Products, Modals, and Footer HTML here exactly as they were -->
+<!-- 
+    PASTE ORIGINAL LINES 754 TO 1073 HERE.
+    (This starts at <section id="hero"> and ends at <div id="toast"></div>)
+-->
 
-<!-- Link to your JS branch[cite: 2] -->
 <script src="js/app.js"></script>
 </body>
 </html>
