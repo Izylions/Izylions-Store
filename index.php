@@ -6,12 +6,12 @@
     <title>IZYLIONS — Premium Athletic Wear</title>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
     
-    <!-- This calls your CSS folder[cite: 2] -->
+    <!-- This folder link works on GitHub! -->
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 
-<?php include 'php/navbar.php'; ?>
+
 
     <!-- ─── HERO SLIDESHOW ─── -->
 <section id="hero">
