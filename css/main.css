@@ -1,35 +1,12 @@
-/* Main Layout */
-body {
-    margin: 0;
-    background-color: #000;
-    color: #fff;
-    font-family: -apple-system, sans-serif;
-    overflow-x: hidden;
+/* css/style.css */
+:root {
+  --black: #0a0a0a;
+  --white: #fafafa;
+  --accent: #e8382d;
+  /* ... rest of your variables ... */
 }
+* { margin:0; padding:0; box-sizing:border-box; }
+html { scroll-behavior: smooth; }
+body { font-family: var(--font-body); background: var(--white); color: var(--black); overflow-x:hidden; }
 
-/* Hero Zoom Section */
-.hero-scroll {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
-
-.zoom-container {
-    width: 100%;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-}
-
-#zoom-img {
-    width: 60%;
-    transition: transform 0.1s ease-out;
-}
-
-.hero-text {
-    position: absolute;
-    text-align: center;
-    z-index: 10;
-}
+/* ... Paste all your CSS from #topbar to the end of the @media queries ... */
